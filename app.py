@@ -27,7 +27,7 @@ if st.button(" Покажи всички книги"):
 else:
   for book in st.session_state.books:
     st.write("Заглавие:", book["title"])
-    st.write("Автор:", book ["author"])
+    st.write("Автор:", book["author"])
     st.write("Цена:", book["price"])
     st.write("-------------")
 
